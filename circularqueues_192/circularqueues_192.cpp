@@ -54,3 +54,7 @@ public:
 			REAR = -1;
 
 		}
+		else {
+			//juka elemen yang dihapus berada di posisi terakhir array,kembali ke awal array
+			if (FRONT == max - 1)
+				FRONT = 0;
