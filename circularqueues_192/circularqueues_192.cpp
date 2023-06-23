@@ -71,3 +71,9 @@ public:
 		if (FRONT == -1) {
 			cout << "Queue is empty\n";
 			return;
+		}
+		cout << "\nElament in the queue are...\n";
+
+		//jika Front_position <= Rear_position,iterasi dari FRONT hingga REAR
+
+
